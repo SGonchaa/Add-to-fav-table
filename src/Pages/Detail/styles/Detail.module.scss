@@ -1,0 +1,38 @@
+.Detail {
+  height: 80vh;
+  &_info {
+    box-shadow: 0 7px 29px 0 var(--bgcolor);
+    border-radius: 10px;
+    padding: 25px 0;
+    width: 40%;
+    margin: 40px auto 0;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    color: var(--bgcolor);
+    h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      span {
+        margin-left: 10px;
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+    }
+    button {
+      margin-top: 20px;
+      background-color: var(--bgcolor);
+      border-radius: 6px;
+      padding: 10px 24px;
+      border: none;
+      color: var(--whitecolor);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      &:hover {
+        color: var(--goldcolor);
+        transform: scale(0.95);
+      }
+    }
+  }
+}

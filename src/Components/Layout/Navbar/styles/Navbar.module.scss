@@ -1,0 +1,29 @@
+.nav {
+  background-color: var(--bgcolor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 20px 40px;
+  &_left_part {
+    h3 {
+      color: var(--whitecolor);
+      font-family: "DM Serif Display", serif;
+      font-size: 1.5rem;
+    }
+  }
+  &_right_part {
+    display: flex;
+    gap: 20px;
+    h5 {
+      color: var(--whitecolor);
+      font-family: "Space Mono", monospace;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      &:hover {
+        color: var(--goldcolor);
+        transform: scale(0.95);
+      }
+    }
+  }
+}

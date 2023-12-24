@@ -1,0 +1,28 @@
+.Favourites {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px 64px;
+  margin: 55px 0px;
+  .btn {
+    color: var(--bgcolor);
+    display: flex;
+    align-items: center;
+    background-color: var(--whitecolor);
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: var(--bgcolor) 0px 3px 8px;
+    padding: 12px 48px;
+    gap: 12px;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: scale(0.95);
+    }
+    .trash_icon {
+      font-size: 1.1rem;
+    }
+  }
+}

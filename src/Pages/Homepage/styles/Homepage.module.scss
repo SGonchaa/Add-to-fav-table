@@ -1,0 +1,11 @@
+.homepage {
+  background-size: cover;
+  height: 90vh;
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #b0c4de 100%);
+  text-align: center;
+  h2 {
+    color: var(--nacbgcolor);
+    font-size: 2rem;
+    font-family: "Space Mono", monospace;
+  }
+}
