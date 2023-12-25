@@ -35,8 +35,8 @@ const columns = [
     width: 100,
     title: "Detail",
     key: "detail",
-    render: (_) => (
-      <Link to="/Detail">
+    render: (_, raw) => (
+      <Link to={`/Detail/${raw.id}`}>
         <button className={style.detail_btn}>Detail</button>
       </Link>
     ),
